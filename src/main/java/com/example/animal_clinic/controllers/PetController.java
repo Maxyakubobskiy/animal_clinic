@@ -38,9 +38,9 @@ public class PetController {
 
     @PostMapping
     public ResponseEntity<?> addPet(@RequestBody Pet pet){
-        if (pet == null)
+        if (pet == null) {
             return ResponseEntity.badRequest().build();
-
+        }
         try{
             Pet savedPet = petService.savePet(pet);
             return ResponseEntity
