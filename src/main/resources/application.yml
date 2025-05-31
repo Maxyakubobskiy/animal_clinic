@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/animal_clinicDB
-    username: postgres
-    password: max228488
+    url: jdbc:postgresql://dpg-d0tds5re5dus73fpf74g-a:5432/animal_clinicdb
+    username: animal_clinicdb_user
+    password: KTMcsQG6uPweiNF1dxSMu7fuSLKprrf7
     driver-class-name: org.postgresql.Driver
 
   jpa:
